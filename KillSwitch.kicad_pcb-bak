@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 120.726999 66.751999 184.835001 96.316001)
     (thickness 0.8128)
-    (drawings 13)
+    (drawings 31)
     (tracks 183)
     (zones 0)
     (modules 26)
@@ -1119,6 +1119,24 @@
     )
   )
 
+  (gr_line (start 133.477 88.646) (end 135.255 88.646) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 135.255 87.757) (end 135.255 88.773) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 133.477 87.757) (end 135.255 87.757) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 133.477 87.757) (end 133.477 88.773) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 134.874 86.106) (end 135.255 86.106) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 133.477 87.503) (end 135.255 87.503) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 135.001 86.741) (end 135.001 87.503) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 133.477 86.741) (end 135.001 86.741) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 133.477 86.106) (end 135.001 86.106) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 133.858 86.106) (end 133.858 87.503) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 133.223 86.741) (end 133.223 86.868) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 133.096 86.614) (end 133.223 86.741) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 133.096 86.106) (end 133.096 86.614) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 132.334 86.741) (end 132.207 86.868) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 132.461 86.614) (end 132.334 86.741) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 132.461 86.106) (end 132.461 86.614) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 132.842 88.773) (end 132.969 88.773) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 132.842 86.106) (end 132.842 88.773) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_text "Liam Berti" (at 180.848 67.945) (layer F.SilkS)
     (effects (font (size 0.8396 0.8396) (thickness 0.2099)))
   )
@@ -1636,6 +1654,66 @@
         (xy 131.95676 90.309592) (xy 131.727956 90.404132) (xy 131.699 90.433037) (xy 131.699 85.903491) (xy 131.909653 85.861589)
         (xy 132.626564 85.382564) (xy 133.105589 84.665653) (xy 133.2738 83.82) (xy 133.105589 82.974346) (xy 132.626564 82.257435)
         (xy 132.118565 81.749435) (xy 131.699 81.469091) (xy 131.699 77.343) (xy 147.701 77.343)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 58EED2BD) (hatch edge 0.508)
+    (connect_pads (clearance 0.1524))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 121.793 73.025) (xy 129.413 73.025) (xy 129.413 69.215) (xy 121.539 69.215) (xy 121.539 73.025)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 129.286 72.898) (xy 121.666 72.898) (xy 121.666 69.342) (xy 129.286 69.342)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 58EED2D4) (hatch edge 0.508)
+    (connect_pads (clearance 0.1524))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 129.413 77.089) (xy 121.539 77.089) (xy 121.539 73.279) (xy 129.413 73.279)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 129.286 76.962) (xy 121.666 76.962) (xy 121.666 73.406) (xy 129.286 73.406)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 58EED2E9) (hatch edge 0.508)
+    (connect_pads (clearance 0.1524))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 129.413 81.153) (xy 121.539 81.153) (xy 121.539 77.343) (xy 129.413 77.343)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 129.286 81.026) (xy 121.666 81.026) (xy 121.666 77.47) (xy 129.286 77.47)
+      )
+    )
+  )
+  (zone (net 0) (net_name "") (layer B.Mask) (tstamp 58EED2F7) (hatch edge 0.508)
+    (connect_pads (clearance 0.1524))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 128.905 85.217) (xy 121.666 85.217) (xy 121.666 81.407) (xy 128.905 81.407)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 128.778 85.09) (xy 121.793 85.09) (xy 121.793 81.534) (xy 128.778 81.534)
       )
     )
   )

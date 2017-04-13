@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/satori/kicad/RAS_2017_IARC7/killSwitchV0/KillSwitch.sch</source>
+    <date>Mon 27 Mar 2017 07:30:08 PM EDT</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>KillSwitch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581E4C45</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>4013</value>
+      <footprint>Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm</footprint>
+      <libsource lib="cmos4000" part="4013"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581E4D55</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>5k</value>
+      <footprint>Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581E52DB</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1.0uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581E53D9</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>500</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581E57C1</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Red LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581E585C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>475</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581E6215</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10.0k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581E6766</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>475</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581E77A1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Green LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>581E782C</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF1324PBF</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="KillSwitch-cache" part="IRF1324PBF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B4BA4B</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRF1324PBF</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="KillSwitch-cache" part="IRF1324PBF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B4BE4D</tstamp>
+    </comp>
+    <comp ref="Q0">
+      <value>IRF1324PBF</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="KillSwitch-cache" part="IRF1324PBF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B4C100</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRF1324PBF</value>
+      <footprint>Power_Integrations:TO-220</footprint>
+      <libsource lib="KillSwitch-cache" part="IRF1324PBF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD8266</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TPS62175</value>
+      <footprint>UserParts:SON-10</footprint>
+      <libsource lib="tps62175" part="TPS62175"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D31F56</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>10uH, 0.036Ohm</value>
+      <footprint>Inductors:Inductor_Bourns-SRU8043</footprint>
+      <datasheet>http://www.mouser.com/ds/2/54/RU8043-778433.pdf</datasheet>
+      <libsource lib="device" part="L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D323B2</tstamp>
+    </comp>
+    <comp ref="Rpg1">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D32598</tstamp>
+    </comp>
+    <comp ref="Rfbt1">
+      <value>2Meg</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D327B3</tstamp>
+    </comp>
+    <comp ref="Rfbb1">
+      <value>383k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D328A5</tstamp>
+    </comp>
+    <comp ref="Cin1">
+      <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D32FAA</tstamp>
+    </comp>
+    <comp ref="Cout1">
+      <value>22uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D331DF</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01X08</value>
+      <footprint>UserParts:barrel_connector</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D93BBB</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X08</value>
+      <footprint>UserParts:barrel_connector</footprint>
+      <libsource lib="conn" part="CONN_01X08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D932D8</tstamp>
+    </comp>
+    <comp ref="U0">
+      <value>NC7SZ08</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-5_HandSoldering</footprint>
+      <libsource lib="nc7sz08" part="NC7SZ08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D99096</tstamp>
+    </comp>
+    <comp ref="J0">
+      <value>Screw_Terminal_1x04</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol</footprint>
+      <libsource lib="conn" part="Screw_Terminal_1x04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D9BDB0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="cmos4000" part="4013">
+      <description>Dual D  FlipFlop, Set &amp; reset</description>
+      <docs>http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4013</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q" type="output"/>
+        <pin num="2" name="~Q" type="output"/>
+        <pin num="3" name="Cp" type="input"/>
+        <pin num="4" name="Cd" type="input"/>
+        <pin num="5" name="D" type="input"/>
+        <pin num="6" name="Sd" type="input"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="Sd" type="input"/>
+        <pin num="9" name="D" type="input"/>
+        <pin num="10" name="Cd" type="input"/>
+        <pin num="11" name="Cp" type="input"/>
+        <pin num="12" name="~Q" type="input"/>
+        <pin num="13" name="Q" type="input"/>
+        <pin num="14" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X08">
+      <description>Connector, single row, 01x08, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KillSwitch-cache" part="IRF1324PBF">
+      <footprints>
+        <fp>TO-220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF1324PBF</field>
+        <field name="Footprint">TO-220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nc7sz08" part="NC7SZ08">
+      <description>Daul and2</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NC7SZ08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmeter</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Screw_Terminal_1x04">
+      <description>4-pin screw terminal connector</description>
+      <footprints>
+        <fp>bornier4</fp>
+        <fp>TerminalBlock*4pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_1x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tps62175" part="TPS62175">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS62175</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PGND" type="passive"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="FB" type="output"/>
+        <pin num="6" name="AGND" type="passive"/>
+        <pin num="7" name="PG" type="power_out"/>
+        <pin num="8" name="SLEEP" type="input"/>
+        <pin num="9" name="SW" type="output"/>
+        <pin num="10" name="VOS" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="tps62175">
+      <uri>/home/satori/kicad/UserParts/tps62175.lib</uri>
+    </library>
+    <library logical="KillSwitch-cache">
+      <uri>/home/satori/kicad/RAS_2017_IARC7/killSwitchV0/KillSwitch-cache.lib</uri>
+    </library>
+    <library logical="cmos4000">
+      <uri>/usr/share/kicad/library/cmos4000.lib</uri>
+    </library>
+    <library logical="nc7sz08">
+      <uri>/home/satori/kicad/UserParts/nc7sz08.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Earth">
+      <node ref="R5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J0" pin="3"/>
+      <node ref="U2" pin="10"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="Q0" pin="3"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Cin1" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="Cout1" pin="2"/>
+      <node ref="Rfbb1" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="2" name="/GATE">
+      <node ref="R3" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q0" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R2" pin="3"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="4" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="6" name="Net-(D2-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="9" name="VCC">
+      <node ref="U0" pin="14"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="U0" pin="7"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad8)">
+      <node ref="J1" pin="8"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad7)">
+      <node ref="J1" pin="7"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="13" name="Net-(R3-Pad2)">
+      <node ref="U0" pin="3"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="14" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="15" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad8)">
+      <node ref="Q3" pin="2"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="17" name="/AND1">
+      <node ref="U0" pin="1"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="18" name="/AND2">
+      <node ref="J0" pin="4"/>
+      <node ref="U0" pin="2"/>
+    </net>
+    <net code="19" name="Net-(J2-Pad5)">
+      <node ref="Q0" pin="2"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="20" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="21" name="+5V">
+      <node ref="Rfbt1" pin="1"/>
+      <node ref="Rpg1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="Cout1" pin="1"/>
+      <node ref="J0" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="22" name="Net-(Rfbb1-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="Rfbt1" pin="2"/>
+      <node ref="Rfbb1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(Rpg1-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="Rpg1" pin="2"/>
+    </net>
+    <net code="24" name="Net-(L1-Pad2)">
+      <node ref="U1" pin="9"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="25" name="/PWM">
+      <node ref="U2" pin="3"/>
+      <node ref="J0" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="26" name="VSS">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="27" name="/VbattPos">
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="Cin1" pin="1"/>
+      <node ref="J1" pin="5"/>
+    </net>
+  </nets>
+</export>

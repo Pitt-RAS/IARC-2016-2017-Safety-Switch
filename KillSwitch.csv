@@ -1,0 +1,41 @@
+Title,
+Revision,
+Date,
+Generated,Mon 27 Mar 2017 07:25:43 PM EDT
+Company,
+Comment 1,
+Comment 2,
+Comment 3,
+Comment 4,
+Total Parts,25
+Total Unique Parts,20
+
+
+
+Ref,Qty,Value,Footprint,
+C1 ,1,0.1uF,Capacitors_SMD:C_0603_HandSoldering
+C4 ,1,1.0uF,Capacitors_SMD:C_0603_HandSoldering
+Cin1 ,1,2.2uF,Capacitors_SMD:C_0603_HandSoldering
+Cout1 ,1,22uF,Capacitors_SMD:C_0603_HandSoldering
+D2 ,1,Red LED,LEDs:LED_1206
+D1 ,1,Green LED,LEDs:LED_1206
+J2 J1 ,2,CONN_01X08,UserParts:barrel_connector
+J0 ,1,Screw_Terminal_1x04,Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol
+L1 ,1,10uH, 0.036Ohm,Inductors:Inductor_Bourns-SRU8043
+Q1 Q3 Q0 Q2 ,4,IRF1324PBF,Power_Integrations:TO-220
+R2 ,1,5k,Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp
+R3 ,1,500,Resistors_SMD:R_0603_HandSoldering
+R4 R1 ,2,475,Resistors_SMD:R_0603_HandSoldering
+R5 ,1,10.0k,Resistors_SMD:R_0603_HandSoldering
+Rfbb1 ,1,383k,Resistors_SMD:R_0603_HandSoldering
+Rfbt1 ,1,2Meg,Resistors_SMD:R_0603_HandSoldering
+Rpg1 ,1,100k,Resistors_SMD:R_0603_HandSoldering
+U2 ,1,4013,Housings_SSOP:SSOP-14_5.3x6.2mm_Pitch0.65mm
+U1 ,1,TPS62175,UserParts:SON-10
+U0 ,1,NC7SZ08,TO_SOT_Packages_SMD:SOT-23-5_HandSoldering
+
+
+
+
+BOM made with KICAD_BOM_WIZARD (https://github.com/HashDefineElectronics/KiCad_BOM_Wizard.git)
+Generated Mon 27 Mar 2017 07:25:43 PM EDT

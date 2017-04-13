@@ -1,0 +1,29 @@
+* /home/satori/kicad/MyKicad/RAS_2017_IARC7/killSwitchV0/KillSwitch.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: Sat 05 Nov 2016 07:22:24 PM EDT
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+C1  +5V Earth 0.1uF		
+U2  Net-_R2-Pad2_ Net-_U2-Pad11_ /PWM Net-_C4-Pad1_ +5V Earth VSS Earth /PWM Earth Net-_U2-Pad11_ Net-_D2-Pad1_ Net-_R3-Pad2_ VDD 4013		
+R2  Net-_C4-Pad1_ Net-_R2-Pad2_ Net-_R2-Pad2_ 5k		
+C4  Net-_C4-Pad1_ Earth 1.0uF		
+R3  /GATE Net-_R3-Pad2_ 10		
+D2  Net-_D2-Pad1_ Net-_D2-Pad2_ Red LED		
+R4  +5V Net-_D2-Pad2_ 475		
+P3  Earth +5V /PWM CONN_01X03		
+R5  /PWM Earth 10.0k		
+C2  /VbattPos Earth 4.7uF		
+C3  +5V Earth 10uF		
+R1  Net-_D1-Pad2_ +5V 475		
+D1  Earth Net-_D1-Pad2_ Green LED		
+P1  Earth /VbattPos CONN_01X02		
+P2  /VbattPos Net-_P2-Pad2_ CONN_01X02		
+Q1  Earth Earth Earth /GATE Net-_P2-Pad2_ Net-_P2-Pad2_ Net-_P2-Pad2_ Net-_P2-Pad2_ IRF8721PBF-1		
+Q2  Net-_Q2-Pad1_ Earth Net-_Q2-Pad1_ /GATE Net-_P2-Pad2_ Net-_P2-Pad2_ Net-_P2-Pad2_ Net-_P2-Pad2_ IRF8721PBF-1		
+Q3  Earth Earth Earth /GATE Net-_P2-Pad2_ Net-_P2-Pad2_ Net-_P2-Pad2_ Net-_P2-Pad2_ IRF8721PBF-1		
+U1  Earth /VbattPos +5V 7805		
+
+.end

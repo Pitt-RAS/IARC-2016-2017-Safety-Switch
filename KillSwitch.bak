@@ -727,7 +727,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 7125 2150 7125
 Wire Wire Line
-	6800 1950 7000 1950
+	6575 1950 7000 1950
 Wire Wire Line
 	2475 3525 2475 3700
 Wire Wire Line
@@ -766,4 +766,76 @@ F 3 "" H 10650 5175 50  0001 C CNN
 	1    10650 5175
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	5725 2250 6575 2250
+Wire Wire Line
+	6575 2250 6575 1950
+$Comp
+L Varistor RV1
+U 1 1 5935DAD7
+P 6200 5850
+F 0 "RV1" V 6325 5850 50  0000 C CNN
+F 1 "Varistor" V 6075 5850 50  0000 C CNN
+F 2 "" V 6130 5850 50  0001 C CNN
+F 3 "" H 6200 5850 50  0001 C CNN
+	1    6200 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5700 6200 5025
+Connection ~ 6200 5025
+Wire Wire Line
+	6200 6000 5750 6000
+Connection ~ 5750 6000
+$Comp
+L Varistor RV2
+U 1 1 5935DDCC
+P 7650 5825
+F 0 "RV2" V 7775 5825 50  0000 C CNN
+F 1 "Varistor" V 7525 5825 50  0000 C CNN
+F 2 "" V 7580 5825 50  0001 C CNN
+F 3 "" H 7650 5825 50  0001 C CNN
+	1    7650 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Varistor RV3
+U 1 1 5935DE45
+P 8925 5800
+F 0 "RV3" V 9050 5800 50  0000 C CNN
+F 1 "Varistor" V 8800 5800 50  0000 C CNN
+F 2 "" V 8855 5800 50  0001 C CNN
+F 3 "" H 8925 5800 50  0001 C CNN
+	1    8925 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Varistor RV4
+U 1 1 5935DEB7
+P 10300 5850
+F 0 "RV4" V 10425 5850 50  0000 C CNN
+F 1 "Varistor" V 10175 5850 50  0000 C CNN
+F 2 "" V 10230 5850 50  0001 C CNN
+F 3 "" H 10300 5850 50  0001 C CNN
+	1    10300 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 5325 10300 5700
+Connection ~ 10300 5325
+Wire Wire Line
+	10300 6000 10025 6000
+Connection ~ 10025 6000
+Wire Wire Line
+	8925 5650 8925 5225
+Connection ~ 8925 5225
+Wire Wire Line
+	8925 5950 8650 5950
+Connection ~ 8650 5950
+Wire Wire Line
+	7650 5675 7650 5125
+Connection ~ 7650 5125
+Wire Wire Line
+	7650 5975 7300 5975
+Connection ~ 7300 5975
 $EndSCHEMATC

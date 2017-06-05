@@ -727,7 +727,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 7125 2150 7125
 Wire Wire Line
-	6575 1950 7000 1950
+	6800 1950 7000 1950
 Wire Wire Line
 	2475 3525 2475 3700
 Wire Wire Line
@@ -766,8 +766,4 @@ F 3 "" H 10650 5175 50  0001 C CNN
 	1    10650 5175
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	5725 2250 6575 2250
-Wire Wire Line
-	6575 2250 6575 1950
 $EndSCHEMATC

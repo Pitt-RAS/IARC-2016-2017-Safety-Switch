@@ -1,4 +1,4 @@
-update=Mon 27 Mar 2017 06:08:20 PM EDT
+update=Mon 05 Jun 2017 02:09:30 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=/home/satori/kicad/UserParts;../../footprints
+LibDir=../../UserParts/Connectors.pretty-master;/home/satori/kicad/UserParts;../../footprints
 [eeschema/libraries]
 LibName1=nc7sz08
 LibName2=adp3050
